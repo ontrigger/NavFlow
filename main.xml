@@ -1,0 +1,11 @@
+<mod name="NavFlow" global_key="NavFlow" core_class="Core.lua">
+    <Classes directory="classes">
+        <class file="navflowmanager.lua"/>
+        <class file="utils.lua"/>
+    </Classes>
+    <Hooks directory="hooks">
+        <hook source_file="lib/setups/gamesetup" file="gamesetup.lua"/>
+        <hook source_file="lib/managers/group_ai_states/groupaistatebase" file="groupaistatebase.lua"/>
+        <hook source_file="lib/managers/navigationmanager" file="navigationmanager.lua"/>
+    </Hooks>
+</mod>
