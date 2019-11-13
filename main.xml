@@ -6,6 +6,7 @@
     <Hooks directory="hooks">
         <hook source_file="lib/setups/gamesetup" file="gamesetup.lua"/>
         <hook source_file="lib/managers/group_ai_states/groupaistatebase" file="groupaistatebase.lua"/>
+        <hook source_file="lib/managers/group_ai_states/groupaistatebesiege" file="groupaistatebesiege.lua"/>
         <hook source_file="lib/managers/navigationmanager" file="navigationmanager.lua"/>
     </Hooks>
 </mod>
